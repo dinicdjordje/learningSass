@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "functions.css",
+	"sources": [
+		"../../scss/partials/functions.scss"
+	],
+	"names": [],
+	"mappings": ""
+}

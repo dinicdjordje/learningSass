@@ -3,10 +3,10 @@
   display: inline-block;
   padding: 10px 25px;
   border: none;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radious: 5px;
+  border-radius: 5px 50% 5px 50%;
+  -moz-border-radius: 5px 50% 5px 50%;
+  -webkit-border-radius: 5px 50% 5px 50%;
+  -o-border-radious: 5px 50% 5px 50%;
   cursor: pointer;
 }
 
@@ -522,6 +522,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
 .comment-section {
   padding: 30px 0;
   background: #ffffff;
+}
+
+.comment-img img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radious: 50%;
 }
 
 .course-section {
