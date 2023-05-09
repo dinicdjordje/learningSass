@@ -26,7 +26,7 @@ $tbody-even-bg:$white;
     thead{
         background: $table-head-bg;
         th{
-            color:$thead-color;
+            color: colorYiq($table-head-bg);
             border:$thead-border-color;
         }
     }
